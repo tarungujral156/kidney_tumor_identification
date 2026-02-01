@@ -1,1 +1,311 @@
 [2026-02-01 02:41:11,871: INFO: main: Welcom to our custom log]
+[2026-02-02 01:06:31,319: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:06:31,326: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:06:31,328: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:06:31,330: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:09:00,575: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:09:00,579: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:09:00,581: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:09:00,584: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:09:52,025: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:09:52,029: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:09:52,031: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:09:52,033: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:10:08,728: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:10:08,728: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:10:08,728: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:10:08,736: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:12:17,670: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:12:17,681: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:12:17,681: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:12:17,681: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:12:28,105: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:12:28,108: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:12:28,111: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:12:28,112: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:13:40,432: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:13:40,436: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:13:40,440: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:13:40,440: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:15:12,679: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:15:12,679: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:15:12,679: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:15:12,679: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:15:12,686: INFO: 3081077952: Downloading from https://drive.google.com/file/d/17HOmuh6wKSeRj4r7ALC9H4iciTXL59WB/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-02-02 01:16:09,915: INFO: 3081077952: Downloaded data from https://drive.google.com/file/d/17HOmuh6wKSeRj4r7ALC9H4iciTXL59WB/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-02-02 01:21:54,717: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:21:54,719: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:21:54,719: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:21:54,719: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:24:43,476: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:24:43,476: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:24:43,488: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:24:43,490: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:24:43,492: INFO: 3359713141: Downloading from https://drive.google.com/file/d/17HOmuh6wKSeRj4r7ALC9H4iciTXL59WB/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-02-02 01:25:29,092: INFO: 3359713141: Downloaded data from https://drive.google.com/file/d/17HOmuh6wKSeRj4r7ALC9H4iciTXL59WB/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-02-02 01:38:43,496: INFO: main: >>>>>> stage Data Ingesetion Stage started <<<<<<]
+[2026-02-02 01:38:43,496: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:38:43,496: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:38:43,496: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:38:43,502: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:38:43,502: ERROR: main: "'ConfigBox' object has no attribute 'unzip_dir'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\main.py", line 10, in <module>
+    obj.main()
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\src\cnnClassifier\config\configuration.py", line 26, in get_data_ingestion_config
+    unZip_dir=config.unzip_dir
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+[2026-02-02 01:39:38,036: INFO: main: >>>>>> stage Data Ingesetion Stage started <<<<<<]
+[2026-02-02 01:39:38,037: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:39:38,038: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:39:38,038: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:39:38,038: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:39:38,038: ERROR: main: "'ConfigBox' object has no attribute 'unzip_dir'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\main.py", line 10, in <module>
+    obj.main()
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\src\cnnClassifier\config\configuration.py", line 26, in get_data_ingestion_config
+    unZip_dir=config.unzip_dir
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+[2026-02-02 01:40:50,308: INFO: main: >>>>>> stage Data Ingesetion Stage started <<<<<<]
+[2026-02-02 01:40:50,308: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:40:50,308: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:40:50,308: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:40:50,308: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:40:50,308: ERROR: main: "'ConfigBox' object has no attribute 'unzip_dir'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\main.py", line 10, in <module>
+    obj.main()
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\src\cnnClassifier\config\configuration.py", line 26, in get_data_ingestion_config
+    unZip_dir=config.unzip_dir
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+[2026-02-02 01:40:56,843: INFO: main: >>>>>> stage Data Ingesetion Stage started <<<<<<]
+[2026-02-02 01:40:56,845: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:40:56,845: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:40:56,846: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:40:56,846: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:40:56,846: ERROR: main: "'ConfigBox' object has no attribute 'unzip_dir'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\main.py", line 10, in <module>
+    obj.main()
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\src\cnnClassifier\config\configuration.py", line 26, in get_data_ingestion_config
+    unZip_dir=config.unzip_dir
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+[2026-02-02 01:45:05,750: INFO: main: >>>>>> stage Data Ingesetion Stage started <<<<<<]
+[2026-02-02 01:45:05,752: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:45:05,753: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:45:05,754: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:45:05,755: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:45:05,755: ERROR: main: DataIngestion() takes no arguments]
+Traceback (most recent call last):
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\main.py", line 10, in <module>
+    obj.main()
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion = DataIngestion(config=data_ingestion_config)
+TypeError: DataIngestion() takes no arguments
+[2026-02-02 01:46:40,694: INFO: main: >>>>>> stage Data Ingesetion Stage started <<<<<<]
+[2026-02-02 01:46:40,695: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 01:46:40,695: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-02 01:46:40,699: INFO: common: created directrory at: artifacts]
+[2026-02-02 01:46:40,699: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-02 01:46:40,699: INFO: data_ingestion: Downloading from https://drive.google.com/file/d/17HOmuh6wKSeRj4r7ALC9H4iciTXL59WB/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-02-02 01:47:24,912: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/17HOmuh6wKSeRj4r7ALC9H4iciTXL59WB/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-02-02 01:47:55,537: INFO: main: >>>>>> stage Data Ingesetion Stage completed <<<<<< 
+
+X===========X]
