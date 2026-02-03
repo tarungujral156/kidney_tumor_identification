@@ -309,3 +309,108 @@ TypeError: DataIngestion() takes no arguments
 [2026-02-02 01:47:55,537: INFO: main: >>>>>> stage Data Ingesetion Stage completed <<<<<< 
 
 X===========X]
+[2026-02-03 19:35:02,030: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-03 19:35:02,035: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-03 19:35:02,035: INFO: common: created directrory at: artifacts]
+[2026-02-03 19:35:02,038: INFO: common: created directrory at: artifacts/prepare_base_model]
+[2026-02-03 19:41:31,127: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-02-03 19:42:29,410: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-03 19:42:29,418: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-03 19:42:29,422: INFO: common: created directrory at: artifacts]
+[2026-02-03 19:42:29,425: INFO: common: created directrory at: artifacts/prepare_base_model]
+[2026-02-03 19:42:29,899: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-02-03 19:45:59,447: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-03 19:45:59,452: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-03 19:45:59,454: INFO: common: created directrory at: artifacts]
+[2026-02-03 19:45:59,456: INFO: common: created directrory at: artifacts/prepare_base_model]
+[2026-02-03 19:45:59,885: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-02-03 19:47:31,852: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-03 19:47:31,856: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-03 19:47:31,858: INFO: common: created directrory at: artifacts]
+[2026-02-03 19:47:31,860: INFO: common: created directrory at: artifacts/prepare_base_model]
+[2026-02-03 19:48:11,590: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-03 19:48:11,592: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-03 19:48:11,595: INFO: common: created directrory at: artifacts]
+[2026-02-03 19:48:11,595: INFO: common: created directrory at: artifacts/prepare_base_model]
+[2026-02-03 19:48:32,314: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-03 19:48:32,318: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-03 19:48:32,318: INFO: common: created directrory at: artifacts]
+[2026-02-03 19:48:32,318: INFO: common: created directrory at: artifacts/prepare_base_model]
+[2026-02-03 19:48:32,728: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-02-03 21:50:54,947: INFO: main: >>>>>> stage Data Ingesetion Stage started <<<<<<]
+[2026-02-03 21:50:54,979: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-03 21:50:54,979: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-03 21:50:54,986: INFO: common: created directrory at: artifacts]
+[2026-02-03 21:50:54,987: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-03 21:50:54,987: INFO: data_ingestion: Downloading from https://drive.google.com/file/d/17HOmuh6wKSeRj4r7ALC9H4iciTXL59WB/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-02-03 22:00:18,925: ERROR: main: ('Connection broken: IncompleteRead(38407006 bytes read, 1589512302 more expected)', IncompleteRead(38407006 bytes read, 1589512302 more expected))]
+Traceback (most recent call last):
+  File "C:\Users\Tarun Gujral\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 903, in _error_catcher
+    yield
+  File "C:\Users\Tarun Gujral\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 1049, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(38407006 bytes read, 1589512302 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tarun Gujral\anaconda3\envs\kidney\lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\Tarun Gujral\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 1257, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\Tarun Gujral\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 1149, in read
+    data = self._raw_read(amt)
+  File "C:\Users\Tarun Gujral\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 1027, in _raw_read
+    with self._error_catcher():
+  File "C:\Users\Tarun Gujral\anaconda3\envs\kidney\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Tarun Gujral\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 927, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(38407006 bytes read, 1589512302 more expected)', IncompleteRead(38407006 bytes read, 1589512302 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\main.py", line 10, in <module>
+    obj.main()
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\src\cnnClassifier\components\data_ingestion.py", line 35, in download_file
+    raise e
+  File "C:\Users\Tarun Gujral\Desktop\kidney_tumor_identification\src\cnnClassifier\components\data_ingestion.py", line 28, in download_file
+    gdown.download(prefix+file_id, zip_download_dir)
+  File "C:\Users\Tarun Gujral\anaconda3\envs\kidney\lib\site-packages\gdown\download.py", line 369, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+  File "C:\Users\Tarun Gujral\anaconda3\envs\kidney\lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(38407006 bytes read, 1589512302 more expected)', IncompleteRead(38407006 bytes read, 1589512302 more expected))
+[2026-02-03 22:00:18,932: INFO: main: **********************]
+[2026-02-03 22:00:18,932: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2026-02-03 22:00:18,942: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-03 22:00:18,950: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-03 22:00:18,952: INFO: common: created directrory at: artifacts]
+[2026-02-03 22:00:18,955: INFO: common: created directrory at: artifacts/prepare_base_model]
+[2026-02-03 22:00:19,960: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-02-03 22:00:20,469: INFO: main: >>>>> stage Prepare Base Model Stage completed <<<<<
+
+x==========x]
+[2026-02-03 22:01:01,927: INFO: main: >>>>>> stage Data Ingesetion Stage started <<<<<<]
+[2026-02-03 22:01:01,938: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-03 22:01:01,940: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-03 22:01:01,940: INFO: common: created directrory at: artifacts]
+[2026-02-03 22:01:01,943: INFO: common: created directrory at: artifacts/data_ingestion]
+[2026-02-03 22:01:01,945: INFO: data_ingestion: Downloading from https://drive.google.com/file/d/17HOmuh6wKSeRj4r7ALC9H4iciTXL59WB/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-02-03 22:09:51,826: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/17HOmuh6wKSeRj4r7ALC9H4iciTXL59WB/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-02-03 22:10:18,128: INFO: main: >>>>>> stage Data Ingesetion Stage completed <<<<<< 
+
+X===========X]
+[2026-02-03 22:10:18,128: INFO: main: **********************]
+[2026-02-03 22:10:18,128: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2026-02-03 22:10:18,131: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-03 22:10:18,136: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-03 22:10:18,136: INFO: common: created directrory at: artifacts]
+[2026-02-03 22:10:18,138: INFO: common: created directrory at: artifacts/prepare_base_model]
+[2026-02-03 22:10:18,930: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-02-03 22:10:19,292: INFO: main: >>>>> stage Prepare Base Model Stage completed <<<<<
+
+x==========x]
